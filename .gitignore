@@ -15,4 +15,12 @@ pyvenv.cfg
 .venv
 pip-selfcheck.json
 
+# Ignore sqlite3 databases
+*.sqlite3
+
+# Ignore __pycache__ folders
+__pycache__/
+*.py[cod]
+*$py.class
+
 # End of https://www.toptal.com/developers/gitignore/api/venv
